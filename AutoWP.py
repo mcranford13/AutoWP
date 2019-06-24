@@ -3,7 +3,7 @@
 #
 #  AutoWPTrue.py
 #  
-#  Copyright 2016 root <root@kali>
+#  Copyright 2016 Matthew Cranford <matthewcranford@protonmail.com>
 #  
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -133,9 +133,6 @@ class Scanner():
 		
 		return
 	
-
-
-#class Alert():
 	
 
 def ArgumentParse():
@@ -158,11 +155,6 @@ def main(args):
 	email = options.email
 	
 	targets = open("targets.txt", 'r').readlines()
-	
-	
-	
-	
-	
 	
 	return 0
 
